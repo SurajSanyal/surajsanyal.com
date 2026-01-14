@@ -133,6 +133,36 @@ To run this webserver in Docker:
 docker compose up -d
 ```
 
+## Exposing the site to the Internet
+
+This is typically done with a reverse proxy; I recommend [Caddy](https://caddyserver.com/docs/) for its automatic TLS registration. If you have a domain already, Caddy will automatically grab certificates and enable HTTPS on this site.
+
+This requires:
+- An `A` record for `*` in your domain registrar pointing to the external IP address of the server host.
+- Ports 80 and 443 forwarded to Caddy's HTTP and HTTPS ports on your router.
+- Ports 80 and 443 open in your host's firewall.
+
+An example Caddyfile might look like this:
+```
+{
+        http_port 80
+        https_port 443
+        admin :2019
+        email <your-email>
+}
+
+(protect) {
+        @external {
+                not remote_ip 192.168.1.0/24
+        }
+        respond @external 403
+}
+
+https://your-domain.com {
+        reverse_proxy <your-host-ip>:<service-port>
+}
+```
+
 ## Static file management
 
 Ideally, you don't want to package static images, videos, fonts, etc. in your Docker container, you want to reference them dynamically from the file system. That way, making a new static resource available to your website is as simple as dragging and dropping a file into a folder. Styling adjustments can be propagated to the container automatically.
