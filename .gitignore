@@ -1,0 +1,12 @@
+# System-generated directories and files
+*__pycache__
+/.vscode
+website/__pycache__
+/venv/
+
+# Static files (fonts, images, etc.)
+website/static/img
+website/static/fonts
+
+# Environment files
+.env

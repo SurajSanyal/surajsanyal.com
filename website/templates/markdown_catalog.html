@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pages</title>
+</head>
+
+<body>
+    <h1>Markdown catalog example</h1>
+    <p>This page will list all of the MarkdownPage IDs it can find.</p>
+
+    {% for page_id in catalog.page_ids %}
+        <a href="/pages/{{ page_id }}">{{ page_id | safe }}</a>
+    {% endfor %}
+
+</body>
+
+<script src="/static/js/site.js"></script>
+
+</html>

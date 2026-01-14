@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ md.meta.title | safe }}</title>
+</head>
+
+<body>
+    <h1>Markdown template example</h1>
+    <p>In the HTML template, be aware of the <code> | safe </code> Jinja filter which allows raw HTML to be renedered.</p>
+    <p>Everything after this paragraph will be read from a Markdown file.</p>
+    <hr>
+
+    {{ md.content | safe }}
+
+    <hr>
+    <h1>This is the end of the Markdown file content.</h1>
+
+    <h1>This is the Markdown meta:</h1>
+    <code>{{ md.meta | safe }}</code>
+
+    <h2>You can use the Markdown meta in many ways. At the <code>head</code> of this HTML template, I used it to set the title of the page. Now the title shows up as the name of your browser tab.</h2>
+
+    <h4 style="color: {{ md.meta.h4_color }};">I read the <code>h4_color</code> metadata key to apply a color to this header using a <code>style</code> tag.</h4>
+</body>
+
+<script src="/static/js/site.js"></script>
+
+</html>

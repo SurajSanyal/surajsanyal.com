@@ -1,0 +1,8 @@
+services:
+    web:
+        build: .
+        ports:
+            - "${SERVICE_PORT:-8000}:8000"
+        restart: unless-stopped
+        volumes:
+            - /website/static:/website/static
