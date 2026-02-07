@@ -1,5 +1,6 @@
 from markdown import Markdown
 import os
+from datetime import datetime
 
 from website import config
 
@@ -28,6 +29,12 @@ class MarkdownPage:
         self.meta = {}
         for key, value in md.Meta.items():
             self.meta[key] = value[0]
+        
+        if self.meta.get("date"):
+            # Convert date string to datetime object for easier formatting in templates.
+            self.meta["date"] = datetime.strptime(self.meta["date"], "%Y-%m-%d")
+            self.meta["date"] = datetime.strftime(self.meta["date"], "%B %d, %Y")  # Format date for display.
+
 
 
     def __repr__(self):
@@ -40,6 +47,7 @@ class MarkdownPage:
 
 class MarkdownCatalog:
     page_ids: list[str] = []  # Keep a list of MarkdownPage IDs.
+    pages: list[MarkdownPage] = []  # Keep a list of MarkdownPage objects.
 
     def __init__(self):
         self.load_pages()
@@ -54,4 +62,5 @@ class MarkdownCatalog:
         MarkdownPage into memory.
         """
         self.page_ids = [f.replace(".md", "") for f in os.listdir(CONTENT_PATH) if f.endswith(".md")]
+        self.pages = [MarkdownPage(page_id) for page_id in self.page_ids]
             

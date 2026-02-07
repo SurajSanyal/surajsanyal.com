@@ -42,6 +42,36 @@ nav {
     }
 }
 
+.page-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.page-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    background-color: #ffdaa5;
+    width: 50%;
+
+    h2 {
+        margin-top: 0;
+        color: var(--red);
+    }
+
+    p {
+        color: var(--text-color);
+    }
+}
+
+.page-item:hover {
+    background-color: #ffcc80;
+}
+
 footer {
     text-align: center;
     padding: 1rem;

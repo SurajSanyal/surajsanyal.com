@@ -8,13 +8,21 @@
 </head>
 
 <body>
-    <h1>Markdown catalog example</h1>
-    <p>This page will list all of the MarkdownPage IDs it can find.</p>
+    <div class="hero">
+        <h1>Pages</h1>
+        <p class="subtitle">Here's some things I've written:</p>
+    </div>
 
-    {% for page_id in catalog.page_ids %}
-        <a href="/pages/{{ page_id }}">{{ page_id | safe }}</a>
-    {% endfor %}
-
+    <div class="page-list">
+        {% for page in catalog.pages %}
+        <a href="/pages/{{ page.id }}" class="page-item">
+            <h2>
+                <span class="page-title">{{ page.meta.get("title") | safe }}</span>
+            </h2>
+            <span>{{ page.meta.get("date") | safe }}</span>
+        </a>
+        {% endfor %}
+    </div>
 </body>
 
 <script src="/static/js/site.js"></script>
