@@ -60,8 +60,8 @@ def markdown_example(request: Request):
     return response
 
 
-@app.get("/blog")
-def markdown_catalog(request: Request):
+@app.get("/pages")
+def pages(request: Request):
     # We can generate directory/category/list pages dynamically.
     #
     # With our Markdown file scheme, we can recursively identify
@@ -78,7 +78,7 @@ def markdown_catalog(request: Request):
 
     response = templates.TemplateResponse(
         request=request,
-        name="markdown_catalog.html",
+        name="pages.html",
         context={
             "catalog": catalog
         }
@@ -89,7 +89,7 @@ def markdown_catalog(request: Request):
 # This route takes a parameter; pass in a page ID in the URL to load that MarkdownPage.
 # The page_id must come after the request argument.
 @app.get("/pages/{page_id}")
-def markdown_catalog(request: Request, page_id: str):
+def blog_page(request: Request, page_id: str):
     md = MarkdownPage(page_id)
 
     response = templates.TemplateResponse(
