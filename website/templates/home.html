@@ -4,15 +4,22 @@
 <head>
     <link rel="stylesheet" href="/static/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>surajsanyal.com</title>
 </head>
 
 <body>
-    <h1>Hello</h1>
-    <h2>The current year is {{ year | safe }}. I know this because I exposed a Python variable with the year to the Jinja templating engine in <code>server.py</code>.</h2>
-    <p><a href="/markdown-example">Click here for a page that is built using a Markdown file.</a></p>
-    <p><a href="/pages">Click here for a page that automatically catalogs all Markdown.</a></p>
+    <nav>
+        <p><a href="/resume">Resume</a></p>
+        <p><a href="/blog">Blog</a></p>
+    </nav>
+
+    <div class="hero">
+        <h1>"Suraj" means "<span class="sun">Sun.</span>"</h1>
+        <p class="subtitle">I'm Suraj Sanyal. I hope your day’s a little brighter after getting to know me.</p>
+    </div>
 </body>
+
+<footer>Special thanks to Erikson Arias. <3</footer>
 
 <script src="/static/js/site.js"></script>
 

@@ -33,6 +33,11 @@ def home(request: Request):
     response = templates.TemplateResponse(request=request, name="home.html")
     return response
 
+@app.get("/resume", response_class=HTMLResponse)
+def resume(request: Request):
+    response = templates.TemplateResponse(request=request, name="resume.html")
+    return response
+
 
 @app.get("/markdown-example", response_class=HTMLResponse)
 def markdown_example(request: Request):
@@ -55,7 +60,7 @@ def markdown_example(request: Request):
     return response
 
 
-@app.get("/pages")
+@app.get("/blog")
 def markdown_catalog(request: Request):
     # We can generate directory/category/list pages dynamically.
     #
