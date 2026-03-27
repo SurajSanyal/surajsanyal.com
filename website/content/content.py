@@ -63,4 +63,6 @@ class MarkdownCatalog:
         """
         self.page_ids = [f.replace(".md", "") for f in os.listdir(CONTENT_PATH) if f.endswith(".md")]
         self.pages = [MarkdownPage(page_id) for page_id in self.page_ids]
+
+        self.pages.sort(key=lambda x: x.meta.get("date"), reverse=True)
             
