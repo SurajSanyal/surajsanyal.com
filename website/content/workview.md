@@ -18,8 +18,8 @@ author: me
 We live in a capitalist system.
 This means:
 
-1) You need money to fix unhappy problems (housing, food, medicine, transport).
-2) Left uninterrupted, the “more money -> more spending cycle continues without the idea of “enough.”
+1. You need money to fix unhappy problems (housing, food, medicine, transport).
+2. Left uninterrupted, the “more money -> more spending cycle continues without the idea of “enough.”
 
 I work because it gives me money and *status*.
 It’s hard to introduce myself to a girl (or anyone) and say “I have no job.”
@@ -34,9 +34,8 @@ If your overhead is low, *enough is low, too*.
 ### WHAT IS IT FOR?
 So, good work can instead:
 
-1) Identify a REAL problem. Not selling BS, but solving the “I need XYZ so I can do ABC” problem. This doesn’t have to be a fancy new business that’s never existed. Dr. Gigi does real dental work.
-
-2) Develop a skillset (in myself or others) so we can solve that problem.
+1. Identify a REAL problem. Not selling BS, but solving the “I need XYZ so I can do ABC” problem. This doesn’t have to be a fancy new business that’s never existed. Dr. Gigi does real dental work.
+2. Develop a skillset (in myself or others) so we can solve that problem.
 
 ### WHO IS IT FOR?
 In our capitalist system, companies usually exploit people for the sake of money.
@@ -50,9 +49,9 @@ An *individual* can scale smaller, and just strive to help others feel seen & in
 ### SO WHAT ABOUT ME?
 I have a list of priorities:
 
-1) Do I have the money to live? YES
-2) Is my time and energy used appropriately? KINDA
-3) Am I learning skills? Am I teaching said skills? NO
-4) Am I solving a real problem? HELL NO
+1. Do I have the money to live? YES
+2. Is my time and energy used appropriately? KINDA
+3. Am I learning skills? Am I teaching said skills? NO
+4. Am I solving a real problem? HELL NO
 
 Maybe it’s time to invert the pyramid.
