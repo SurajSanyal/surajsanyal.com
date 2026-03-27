@@ -27,9 +27,9 @@ It’s hard to introduce myself to a girl (or anyone) and say “I have no job.�
 But I’m merely describing *employment*. Good *work* could be different.
 
 Employment is “enough” to get by, and then just hoarding money afterwards.
-Work’s version of “enough” looks like this: “Did I make enough to DO THE WORK AGAIN?”
+Work’s version of “enough” looks like this: “Did I make enough to *do the work again?*”
 
-If your overhead is low, ENOUGH IS LOW, TOO.
+If your overhead is low, *enough is low, too*.
 
 ### WHAT IS IT FOR?
 So, good work can instead:
@@ -40,7 +40,7 @@ So, good work can instead:
 
 ### WHO IS IT FOR?
 In our capitalist system, companies usually exploit people for the sake of money.
-I believe it’s possible—imperative, even—to exploit the COMPANIES for the sake of people.
+I believe it’s possible—imperative, even—to exploit the *companies* for the sake of people.
 
 Noclip white-labels as Secret Tape to market for Bethesda & Valve. Then they take that money and spotlight the indie game dev scene.
 
@@ -49,6 +49,7 @@ An *individual* can scale smaller, and just strive to help others feel seen & in
 
 ### SO WHAT ABOUT ME?
 I have a list of priorities:
+
 1) Do I have the money to live? YES
 2) Is my time and energy used appropriately? KINDA
 3) Am I learning skills? Am I teaching said skills? NO
