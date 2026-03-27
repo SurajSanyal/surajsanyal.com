@@ -5,6 +5,22 @@ author: me
 ---
 
 # Lifeview ("Design Your Life" Prompt 2/2)
+## PROMPT
+- Why are we here?
+- What is the meaning or purpose of life?
+- What is the relationship between the individual and
+What is the relationship between the individual and
+others?
+- Where do family, country, and the rest of the world
+fit in?
+- What is good, and what is evil?
+- Is there a higher power, God, or something
+transcendent, and if so, what impact does this have on
+your life?
+- What is the role of joy, sorrow, justice, injustice, love,
+peace, and strife in life?
+
+## MY THOUGHTS
 Life is not fair. I used to think otherwise, but then my sister got sick. And then my mom got terminally ill.
 Life is full of problems. Problems are painful. Problems can cause suffering.
 But life’s problems provide us with the opportunity to make things better.
