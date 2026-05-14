@@ -25,8 +25,6 @@ This is the actual outline I used to pitch This Keyboard Feeds People, my custom
 > 
 > When I’d get a bonus or a promotion, my first thought was ***“what is this all for?”***
 > 
-> ***[insert picture of keyboard here]***
-> 
 > This keyboard exists so I can ask a better question: 
 > What if every time I wrote a message on Teams or a line of code, it was a reminder that I can help someone who really needs it?
 > 
@@ -37,6 +35,8 @@ This is the actual outline I used to pitch This Keyboard Feeds People, my custom
 > I’ll design and assemble a custom keyboard for you with 0% markup. Instead I’ll ask you to donate to Elijah’s Promise, a food bank in New Brunswick.
 > 
 > I hope that if anything that I said resonated with you, you’ll join me and buy a keyboard that feeds people, too.
+
+![A red and black keyboard, with gold lighting under the keys.](../static/tkfp.jpg)
 
 I wanted to emphasize two things that [Seth Godin](https://seths.blog/2014/08/understanding-substitutes/) says determines the price of an offering:
 

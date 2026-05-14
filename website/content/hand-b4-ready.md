@@ -20,4 +20,4 @@ Not even close.
 
 So I leveraged AT&T’s biggest resource–its *people*–and I asked for help relentlessly until I found the right person for each job.
 
-***[embed Google Photos vid from Dec 4th]***
+<!-- ***[embed Google Photos vid from Dec 4th]*** -->
